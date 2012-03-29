@@ -1,0 +1,5 @@
+#auto: false
+markdown: rdiscount
+#permalink: ./:year-:month-:day-:title.html
+rdiscount:
+  extensions: [smart]
