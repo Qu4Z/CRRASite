@@ -1,15 +1,15 @@
 /* Layout */
 html {
-	background-color: #330000;
+	background-color: #380000;
 }
 .container {
-	width: 80%;
+	width: 95%;
 	margin: 0px auto;
 	max-width: 1024px;
 	min-width: 34em;
 }
 .content {
-	max-width: 50em;
+	max-width: 45em;
 	min-width: 20em;
 	background: #FFFFFF;
 	padding: 30px;
@@ -28,6 +28,8 @@ html {
 .logo {
 	width:100%;
 	max-width: 1024px;
+	border-radius:10px;
+	border: 2px solid black;
 }
 .right-column {
   float:right;
@@ -36,21 +38,26 @@ html {
   max-width:180px;
 }
 
-/* Navbar */
-.navbar {
+/* Right Column */
+.rc-item {
   margin:0px;
   background: #FFFFFF;
   overflow: hidden;
   padding:5px;
   border-radius:5px;
   -moz-border-radius:5px;
+  margin-bottom:20px;
 }
-.navtitle {
+.rc-title {
   font-weight:bold;
+  display:block;
 }
 .navitem {
   display:block;
   margin-top:10px;
+}
+.translate {
+  border: 1px solid black;
 }
 /* Footer */
 .footer {
@@ -71,4 +78,6 @@ html {
 h1 {
 	margin: 0px;
 }
-
+p {
+	text-indent: 1em;
+}
